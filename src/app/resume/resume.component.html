@@ -1,0 +1,105 @@
+<button (click)="sendToPdf()">pdf</button>
+
+<div class="page" id="page">
+    <div class="resume-body"  #page>
+        <div class="left">
+            <div class="name">{{data.personal.name}}</div>
+            <div class="occupation">{{data.personal.occupation}}</div>
+            <div class="photo">
+                <img class="img-responsive" src="assets/photo.jpg">
+            </div>
+            <div class="contact_section">
+                <div class="section_title">Contact</div>
+                <div class="section_body">
+                    <div class="contact">
+                        <div class="label">Email</div>
+                        <div class="data">{{data.personal.email}}</div>
+                    </div>
+                    <div class="contact">
+                        <div class="label">Phone</div>
+                        <div class="data">{{data.personal.phone}}</div>
+                    </div>
+                    <div class="contact">
+                        <div class="label">Location</div>
+                        <div class="data">{{data.personal.location}}</div>
+                    </div>
+                    <div class="contact">
+                        <div class="label">Linkedin</div>
+                        <div class="data">{{data.personal.linkedin}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="education_section">
+                <div class="section_title">Education</div>
+                <div class="section_body">
+                    <div class="diploma" *ngFor="let diploma of data.education">
+                        <div class="degree">{{diploma.degree}}</div>
+                        <div class="intitution">{{diploma.institution}}</div>
+                        <div class="location">{{diploma.location}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="certification_section">
+                <div class="section_title">Certificates</div>
+                <div class="section_body">
+                    <div class="certification" *ngFor="let certificate of data.certificates">
+                        <div class="certificate">{{certificate.certification}}</div>
+                        <div class="intitution">{{certificate.institution}}</div>
+                        <div class="credential">Credential: {{certificate.credential_code}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lenguages">
+                <div class="section_title">Lenguages</div>
+                <div class="section_body">
+                    <div class="lenguage" *ngFor="let item of data.lenguages.english">
+                        <div class="dialect">{{item.lenguage}}</div>
+                        <div class="level">{{item.level}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="references_section">
+                <div class="section_title">References</div>
+                <div class="section_body">
+                    <div class="reference" *ngFor="let reference of data.references">
+                        <div class="alias">{{reference.name}}</div>
+                        <div class="role">{{reference.role}}</div>
+                        <div class="phone">{{reference.phone}}</div>
+                        <div class="mail">{{reference.email}}</div>
+                        <div class="location">{{reference.location}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="summary">
+                Software Engineer with 8+ experience as full stack developer in multiple lenguage and technologies (JAVA, LARAVEL, C++, ANGULAR, REACT, HTML, CSS, SQL, MONGO DB, GIT, JENKINS, AWS, GCP), in my path as developer i have the oportunity to work in multiples kinds of proyects (BANKS, RETAIL, CLOUD PROYECTS, ENTERPRISE DATA MANAGEMENT), over the years i have also been able to gain experiencec in other IT roles such as (SRE, Technical Lead, CODE TEACHER). Thanks to these experiences I have gained knowledge that has allowed me to achieve a better understanding of each of the processes involved in software development.
+            </div>
+            <div class="experiences">
+                <div class="section_title">WORK EXPERIENCES</div>
+                <!-- <div class="experience">
+                    <div class="role">SENIOR FRONTEND ANGULAR DEVELOPER</div>
+                    <div class="company">BCI BANK / Santiago, Chile / August 2023 - Febrero 2024</div>
+                    <div class="activity">
+                        - My principal labor in this role was implement evolutionary improvement to the web app BCI-PYME-PORTAL (medium and small bussiness accounts in BCI bank), all change requested come from the gerency of the bank, and me and my team we have the responsabily of discuss and create user historys and added to ours jira backlog. 
+- as developer i have a secondary labor in this team, that was manage and control every step in the CI/CD (continue integration), from testing until deploy in QA and PROD stage.
+- The technologic STACK than i used to achive my gols in this job was ANGULAR 14, JAVA SPRING BOOT, GIT, CSS, JAVASCRIPT, JIRA, JENKINS.
+                    </div>
+                </div>
+            
+             -->
+
+            <ng-container *ngFor="let experience of data.experiences">
+                <div class="experience">
+                    <div class="role">{{experience.english.role}}</div>
+                    <div class="company">{{experience.english.company}}</div>
+                    <div class="activity" *ngFor="let activities of experience.english.activities">
+                        {{activities.activity}}
+                    </div>
+                    <div class="stack">STACK : {{experience.english.stack}}</div>
+                </div>
+            </ng-container>
+        </div>
+        </div>
+    </div>
+</div>

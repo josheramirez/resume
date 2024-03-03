@@ -1,0 +1,236 @@
+{
+"personal":{
+    "name": "Jose Ramirez",
+    "occupation":"Software Enginner",
+    "email":"joseinformatico2015@gmail.com",
+    "phone":"+56 973924567",
+    "location": "Santiago, Chile",
+    "linkedin":"/in/jose-ramirez-engineer",
+    "relationship":"Single",
+    "birth":"07-03-1985"
+},
+"education":[
+    {
+        "degree":"Software Engineer",
+        "institution":"Universidad Tecnológica Metropolitana","location":"Santiago, Chile 2017"
+    },
+    {
+        "degree":"Bachelor of Science in Engineering",
+        "institution":"Universidad Tecnológica Metropolitana", "location":"Santiago, Chile 2015"
+    }
+],
+"certificates":[
+    {
+        "certification":"IBM Data Science Professional",
+        "institution":"Coursera",
+        "credential":"https://www.coursera.org/account/accomplishments/verify/75PANZF3N8M8",
+        "credential_code":"75PANZF3N8M8"
+    },
+    {
+        "certification":"Spring Boot Framework+ Restful",
+        "institution":"Udemy",
+        "credential":"https://www.udemy.com/certificate/UC-2VDMG42C",
+        "credential_code":"UC-2VDMG42C"
+    },
+    {
+        "certification":"IBM Data Analysis with Python",
+        "institution":"IBM",
+        "credential":"https://www.coursera.org/account/accomplishments/certificate/S6T8T38M8JAH",
+        "credential_code":"S6T8T38M8JAH"
+    },
+    {
+        "certification":"Machine Learning with Python",
+        "institution":"Coursera",
+        "credential":"https://www.coursera.org/account/accomplishments/verify/75PANZF3N8M8",
+        "credential_code":"75PANZF3N8M8"
+    },
+    {
+        "certification":"Skills Framework Information Age",
+        "institution":"SFIA Foundation",
+        "credential":"2D51B9A5-9F4F-4489-89AB-CD19F2FA43B4",
+        "credential_code":"89AB-CD19F2FA43B4"
+    },
+    {
+        "certification":"B1 English Course",
+        "institution":"Antofagasta University, Chile",
+        "credential":"Digital Diploma https://bit.ly/B1WEEK28",
+        "credential_code":"B1WEEK28"
+    }
+],
+"lenguages":{
+    "spanish":{},
+    "english":[
+        {
+            "lenguage":"Spanish",
+            "level":"Native"
+        },
+        {
+            "lenguage":"English",
+            "level":"B2 / IELTS 5.5"
+        }
+    ]
+},
+"summary":{
+    "spanish":{},
+    "english":"Software Engineer with 8+ experience as full stack developer using the most popular lenguage and technologies in the TI environment (JAVA, LARAVEL, C++, ANGULAR, REACT, HTML, CSS, SQL, MONGO DB, GIT, JENKINS, AWS, GCP), in my path as developer I have the oportunity to work in multiples kinds of proyects (BANKS, RETAIL, CLOUD PROYECTS, ENTERPRISE DATA MANAGEMENT), over the years also I been able to gain experiencec in other IT roles such as (SRE, Technical Lead, CODE TEACHER). Thanks to these experiences I gained knowledge that has allowed me to achieve a better understanding of each of the processes involved in software development."
+},
+"experiences":[
+    {
+        "spanish":{},
+        "english":{
+            "role":"SENIOR FRONTEND ANGULAR DEVELOPER",
+            "company":"BCI BANK / Santiago, Chile / August 2023 - Febrero 2024",
+            "activities":
+            [
+                {
+                    "activity":"My principal labor in this role was implement evolutionary improvement to the web app BCI-PYME-PORTAL (medium and small bussiness accounts in BCI bank), all change requested come from the gerency of the bank, and me and my team we have the responsabily of discuss and create user historys and added to ours jira backlog."
+                },
+                {
+                    "activity":"As developer I have a secondary labor with this team, that was manage and control every step in the CI/CD (continue integration), from testing until deploy in QA and PROD stage."
+                }
+            ],
+            "stack":"ANGULAR 14, JAVA SPRING BOOT, GIT, CSS, JAVASCRIPT, JIRA, JENKINS, GCP"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"SENIOR FULLSTACK DEVELOPER",
+            "company":"EQUIFAX / Santiago, Chile / November 2021 - June 2023",
+            "activities":
+            [
+                {
+                    "activity":"The mission of my team was create and mantein the web aplication 'Data Tool / Data Maintenance' this is a unifiqued finaltial consultant plataform, implemented for all LATAM excecpt brazil, this proyect has multiple peculiarities among which I hightlight the use of Spring Boot Webflux as a lenguague for the BACKEND and the use of EQUIFAX DATAFABRIC (GCP cloud based data wherehouse) as data source for the proyect."
+                }
+            ],
+            "stack":"Spring Boot Java 11, JUnit, WebFlux, Cloud Firestore, Maven, Nexus, Angular 14, Unit Testing i use Jasmine & Karma, TypeScript, Sass, CSS, HTML, Angular Material 8, NPM, GCP, Kubernetes, Github, Jenkins, SonarQube, Fortify, Scrum, Confluence and Jira."
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"FULLSTACK DEVELOPER",
+            "company":"ACIDLABS / Santiago, Chile / July 2020 - Octuber 2021",
+            "activities":
+            [
+                {
+                    "activity":"This company is a 'Code Fabric' than sell IT service to other bussines in Chile and LATAM, working in AcidLabs was fantastic experience because they have multiple clients from different areas (REATIL, AEROLINES, ECOMMERCE, DATA SCIENCE) and they work in diferent kind of proyects, in there I have the oportinity of collaborate in software soluction for this companies:"
+                },
+                {
+                    "activity":"- MacOnline (principal reseller of apple computers in Chile) / April to 2021 Octuber 2021. My main responsibilities in this company were doing frontend maintenance on their web sales platform, create new landing pages, fix legacy issues present in the aplication."
+                },
+                {
+                    "activity":"- Salcobrand (biggest drougstore in Chile) / December 2020 to April 2021. My role in this company was as a frontend develop and consist in generate the responsive version (movil and tabled) of the already production app, in this role work in collaboration with the designer and stackholder from the company."
+                },
+                {
+                    "activity":"- TINK (marketing B2B - App Referral Program present in all LATAM)/ July 2020 to November 2020. In this company I had to fulfill multiple roles: take the software requirents direct from the director of the company ;  create and implement the solution as code; deploy the solucion in respective ambient (DEVELOPMENT-QA-PRODUCTION); generate performance report from GCP machines running the proyect and sending to the client. As you can see, it was an ardous task but is was very enriching and allowed me to learn about new technologies as LOOPBACK EXPRESS that I used in the development of the backend  and also in this experience I had my first approach to GCP."
+                }
+            ],
+            "stack":"Ruby on Rails with SPREE, React 16, ANGULAR 11, ANGULAR JS, CSS, HTML, GIT, JAVASCRIPT, SASS, BOOTSTRAP, ADOBE XD (template design tool), JIRA, LOOPBACK EXPRESS, HTML, JAVASCRIPT, CSS, GIT, GCP"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"FULLSTACK DEVELOPER AND TECHNICAL LEAD LARAVEL",
+            "company":"MINISTRY OF HEALTH CHILE (SSMOC) / Santiago, Chile / January 2019 - June 2020",
+            "activities":
+            [
+                {
+                    "activity":"This was my second experience working in a public entity in Chile, the first 5 month in this institution I work as a fullstack developer using PHP and his fremework LARAVEL, after that period my employer based in my knowledge and productivity, offered me the position of technical leader. In my new role I was not only in charge of all stages of software development (requirements - development - testing - deploys) but also of the organization and induction of each member of the human work team. In my period in this institution I worked on severals projects with different complexity of which I rescued those that were implement at the national level and represent the greates challenge."
+                },
+                {
+                    "activity":"- SSMOC-VIH : Management and control system for test resquest and HIV test result, this system allows availability of the information collected in real time among all stablishments belonging to the public health service across the country."
+                },
+                {
+                    "activity":"- SSMOC-PRAM :  Emergency recruitment system for health professionals. When COVID pandemic began, it was necessary to  create a system that would allows find , select and propose a professional to a region of the country that required it. "
+                }
+            ],
+            "stack":"LARAVEL 5.8, HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, AWS, LINUX, JENKINS, ANGULAR, REACT,  PYTHON 3.8, JAVA SPRING BOOT, MYSQL, MONGODB, SCRUM"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"FULLSTACK DEVELOPER / JAVA SPRING BOOT - REACT NATIVE",
+            "company":"Startup CIENCIA NETA / Mexico DF, Mexico / May 2018 - November 2018",
+            "activities":[
+                {
+                    "activity":"Full Stack developer for 'NoMore' application (information and prevention system for women's safety) version web / android / ios."
+                },
+                {
+                    "activity":"Development of the prototype app, from the conceptual idea of the client to the database implementation and server installation. "
+                },
+                {
+                    "activity":"Construction of general modules (login, user management, geo location, forum, news, social network), and construction of alarm warning module and predictive module using Machine Learning."
+                }
+            ],
+            "stack":"JAVA SPRING BOOT 2.0.5, REACT NATIVE 0.56, GCP, Kubernetes, Git, HTML, CSS, TOMCAT"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"FULLSTACK DEVELOPER / LARAVEL - ANGULAR",
+            "company":"Copiapo Regional Hospital (HRC) / Copiapó, Chile / June 2017 – February 2018",
+            "activities":[
+                {
+                    "activity":"Requirements engineering, ordering and categorization of the functional and non-functional requirements necessary for the development of the 'Payment system for the HRC Accounting area' project."
+                },
+                {
+                    "activity":"Contruction of “Sistema Pagare” information system for the commercialization area of the hospital. implement app code and database server SQL "
+                },
+                {
+                    "activity":"Deployment and mantainance of proyect in local hospital servers PHP."
+                }
+            ],
+            "stack":"LARAVEL 6, GIT, LINUX, ANGULAR 7"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"JAVA PROGRAMMING LANGUAGE INSTRUCTOR",
+            "company":"SENCE National Training and Employment Service / Copiapó, Chile / March 2017 – February 2018",
+            "activities":[
+                {
+                    "activity":"Instructor in the '1000 Programadores para Chile' programming course, introductory course to programming. I do theoretical and practical classes in areas such as logic, mathematics, pseudocode, algorithms, Java, Java EE, Servers, Git, Javascript, HTML5 / CSS3."
+                }
+            ],
+            "stack":"JAVA 8, Javascript, HTML5, CSS3, Eclipse, Visual studio code"
+        }
+    },
+    {
+        "spanish":{},
+        "english":{
+            "role":"HERPA-MAQUALAS / Chile - Netherlands / October 2015 – January 2017",
+            "company":"SENCE (National Training and Employment Service) / Copiapó, Chile / March 2017 – February 2018 (Part-time 7:00 pm to 10:pm)",
+            "activities":[
+                {
+                    "activity":"Creation of prototipe version for online multiplayer game (miniature aerports and planes) based on the real miniature products of HERPA company catalog."
+                },
+                {
+                    "activity":"Construction of modules for user registration, product registration, collections, payments, travels, implementation of aerport trafic simulator, first stage of 2d world in javascript an TREEjs. Implementation of the PostgreSQL database and servers."
+                }
+            ],
+            "stack":"Action Script 8, JAVA JSP, TOMCAT, JAVASCRIPT, CSS, SQL, HTML"
+        }
+    }
+],
+"references":[
+    {
+        "name":"Frits de Kleine",
+        "role":"CEO Maquales-Herpa",
+        "phone":"+31 20 618 2216",
+        "email":"frits_kleine_1980@gmail.com",
+        "location":"Netherlands"
+    },
+    {
+        "name":"Bruno Bonomo",
+        "role":"Product Owner Equifax",
+        "phone":"+54 11 4371-8141",
+        "email":"b.bonomo@equifax.com",
+        "location":"Argentine"
+    }
+]
+}

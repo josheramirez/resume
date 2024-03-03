@@ -1,0 +1,139 @@
+.page{
+    width: 1240px;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+}
+
+.resume-body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    .left{
+        color: white;
+        flex: 1.5;
+        background-color: rgb(69, 74, 86);
+        .name{
+            padding-top: 15px;
+            font-size: 35px;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+        .occupation{
+            padding-left: 15px;
+            font-size: 20px;
+        }
+        .photo{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            img{
+                width: 100%;
+            }
+        }
+        .section_title{
+            background-color: #363c44;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+        }
+        .contact{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .label{
+                font-weight: bold;
+            }
+        }
+        .diploma{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .degree{
+                font-weight: bold;
+            }
+        }
+        .certification{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .certificate{
+                font-weight: bold;
+            }
+        }
+        .lenguage{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .dialect{
+                font-weight: bold;
+            }
+        }
+        .reference{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            .alias{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .role, .phone, .email, .location{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    .right{
+        padding: 20px;
+        padding-right: 30px;
+        flex: 5;
+        .summary{
+            text-align: justify;
+        }
+        .experiences{
+            padding-top: 20px;
+            .section_title{
+                font-weight: bolder;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+            .experience{
+                padding-top: 15px;
+                .role{
+                    font-weight: bold;
+                }
+                .company{
+                    padding-bottom: 5px;
+                }
+                .activity{
+                    padding-bottom: 5px;
+                    padding-left: 30px;
+                    text-align: justify;
+                }
+                .stack{
+                    padding-top: 5px;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+}
+
+.section_body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
