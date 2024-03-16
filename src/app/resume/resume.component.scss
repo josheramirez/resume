@@ -64,6 +64,10 @@
             padding-right: 15px;
             padding-top: 5px;
             padding-bottom: 5px;
+            .institution_credential{
+                display: flex;
+                justify-content: space-between;
+            }
             .certificate{
                 font-weight: bold;
             }
@@ -95,8 +99,8 @@
         }
     }
     .right{
-        padding: 20px;
-        padding-right: 30px;
+        padding: 15px;
+        padding-right: 25px;
         flex: 5;
         .summary{
             text-align: justify;

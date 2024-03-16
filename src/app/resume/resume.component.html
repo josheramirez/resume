@@ -44,8 +44,12 @@
                 <div class="section_body">
                     <div class="certification" *ngFor="let certificate of data.certificates">
                         <div class="certificate">{{certificate.certification}}</div>
-                        <div class="intitution">{{certificate.institution}}</div>
-                        <div class="credential">Credential: {{certificate.credential_code}}</div>
+                        <div class="institution_credential">
+                            <div class="institution">{{certificate.institution}}</div>
+                            <div class="credential">
+                                <!-- {{certificate.credential_code}} -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
