@@ -21,7 +21,7 @@ export class ResumeComponent implements OnInit{
   }
 
   sendToPdf() {
-    var doc = new jsPDF('p', 'px', [1240, 1759]);
+    var doc = new jsPDF('p', 'px', [1240, 1732]);
 
     // doc.addFont("Ubuntu", "Helvetica Neue", "sans-serif")
     let pdfjs = this.page.nativeElement;
