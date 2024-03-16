@@ -11,6 +11,15 @@ import jspdf, { jsPDF } from 'jspdf';
 })
 export class ResumeComponent implements OnInit{
   data:any = "";
+  actual_language = "english";
+  next_language = "español";
+  item_activities = []
+  languages = [
+    {"language":"english","label":"english"},
+    {"language":"spanish","label":"español"},
+    {"language":"chinese","label":"中国人"},
+  ]
+
   @ViewChild('page', { 'static': true }) page:any;
   
   constructor(@Inject(DOCUMENT) private document: Document) {
@@ -21,7 +30,7 @@ export class ResumeComponent implements OnInit{
   }
 
   sendToPdf() {
-    var doc = new jsPDF('p', 'px', [1240, 1732]);
+    var doc = new jsPDF('p', 'px', [1240, 1717]);
 
     // doc.addFont("Ubuntu", "Helvetica Neue", "sans-serif")
     let pdfjs = this.page.nativeElement;
@@ -35,4 +44,29 @@ export class ResumeComponent implements OnInit{
       y: 0
     });
   } 
+
+  set_language(language:any){
+    this.actual_language = language.language
+  }
+
+  translate(section:any, type:any, index?:any){
+    switch (type) {
+      case "data":
+        return(this.data[section][this.actual_language])
+        break;
+      case "ui":        
+        return(this.data[type][section][this.actual_language])
+        break;
+      case "item":        
+        return(this.data[section][index][this.actual_language])
+        break;
+      default:
+        break;
+    }
+  }
+
+get_activities(data:any){
+  this.item_activities = data
+}
+
 }

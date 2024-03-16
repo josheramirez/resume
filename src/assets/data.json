@@ -71,7 +71,7 @@
     ]
 },
 "summary":{
-    "spanish":"Ingeniero de Software con mas de 8 años de experiencia como desarrollador full-stack en multiples lenguajes y tecnologias (JAVA, LARAVEL, C++, ANGULAR, REACT, HTML, CSS, SQL, MONGO DB, GIT, JENKINS, AWS, GCP). En mi camino como desarrollador he tenido la oportunidad de trabajar en multiples tipos de projectos (Bancos, Retail, Proyectos en la nube, Manejo de data corporativa). A traves de los años tambien he tenido la oportunidad de trabajar y explorar diferentes roles TI como SRE, Tech Lead, Instructor de codigo. Gracias a estas experiencias he podido ganar conocimiento que me a permitido alcanzar un mejor entendimiento de cada uno de los procesos involucrados en el desarrollo de software.",
+    "spanish":"Ingeniero de Software con mas de 8 años de experiencia como desarrollador full-stack en multiples lenguajes y tecnologias (JAVA, LARAVEL, C++, ANGULAR, REACT, HTML, CSS, SQL, MONGO DB, GIT, JENKINS, AWS, GCP). Como desarrollador he trabajado en multiples tipos de projectos (Bancos, Retail, Proyectos en la nube, Manejo de data corporativa). A traves de los años tambien he tenido la oportunidad de trabajar y explorar diferentes roles TI como SRE, Tech Lead, Instructor de codigo. Gracias a estas experiencias he podido ganar conocimiento que me a permitido alcanzar un mejor entendimiento de cada uno de los procesos involucrados en el desarrollo de software.",
     "english":"Software Engineer with 8+ experience as full stack developer in multiple language and technologies (JAVA, LARAVEL, C++, ANGULAR, REACT, HTML, CSS, SQL, MONGO DB, GIT, JENKINS, AWS, GCP). In my path as a developer, I have had the opportunity to work in multiple kinds of projects (BANKS, RETAIL, CLOUD PROYECTS, ENTERPRISE DATA MANAGEMENT). Over the years I have also been able to work and explore different IT roles such as SRE, Technical Lead and CODE TEACHER. Thanks to these experiences I have gained knowledge that has allowed me to achieve a better understanding of each of the processes involved in software development."
 },
 "experiences":[
@@ -133,10 +133,10 @@
             "activities":
             [
                 {
-                    "activity":"Esta empresa es una 'Fabrica de Codigo' que vende sus servicios a otras compañias en Chile y LATAM, trabajar en AcidLabs fue una fantastica experiencia porque ellos tiene multiples clientes de diferentes areas (RETAIL, AEROLINEAS, ECOMMERCE, DATA SCIENCE) y trabajan en distintos tipos de proyectos, en esta empresa tube la oportunidad de colaborar en soluciones de software para estas compañias:"
+                    "activity":"Trabajar en AcidLabs fue una fantastica experiencia al ser una 'Fabrica de Codigo' ellos tienen clientes de multiples areas (RETAIL, AEROLINEAS, ECOMMERCE, DATA SCIENCE) y trabajan en distintos tipos de proyectos, en esta empresa tube la oportunidad de colaborar en soluciones de software para estas compañias:"
                 },
                 {
-                    "activity":"- MacOnline (principal revendedor de computadores Apple en Chile) / Abril 2021 a Octubre 2021. Mis principales responsabilidades en esta empresa fue hacer mantenimiento frontend en su plataforma de ventas web, crear nuevas landing pages, reparar errores heredados en la aplicacion."
+                    "activity":"- MacOnline (principal reseller Apple en Chile) / Abril 2021 a Octubre 2021. Mis principales responsabilidades en esta empresa fue hacer mantenimiento frontend en su plataforma de ventas web, crear nuevas landing pages, reparar errores heredados en la aplicacion."
                 },
                 {
                     "activity":"- Salcobrand (cadena de farmacias en Chile) / Diciembre 2020 a Abril 2021. Mi rol en esta compañia fue como desarrollador frontend y consistio en general la version responsive (movil y tablet) de la aplicacion en produccion, en este rol trabaje en colaboracion con el diseñador y los stack holder de la empresa."
@@ -174,7 +174,7 @@
             "activities":
             [
                 {
-                    "activity":"Esta fue my segunda experiencia trabajando en una entidad publica en Chile, los primeros 5 mese en la institucion trabaje como desarrollador usando PHP y su framework LARAVEL, despues de ese periodo mi jefatura basado en mi desempeño y conocimiento, me ofrecio pasar a ser lider tecnico del proyecto. En mi nuevo rol estube a cargo de todas las etapas de desarrollo (requerimientos - desarrolo - test - deploy) y tambien de la organizacion e induccion de los miembros del equipo de trabajo. En mi paso por esta institucion trabaje en variados proyectos de diferente complejidad de los cuales rescato aquellos que tubieron una implementacion a nivel nacional y que representaron un mayor reto."
+                    "activity":"Tercera experiencia trabajando en entidad publica Chile, primeros 5 meses en la institucion trabaje como desarrollador PHP y framework LARAVEL, despues mi jefatura basado en mi desempeño y conocimiento, me ofrecio pasar a ser lider tecnico del proyecto. En mi nuevo rol estube a cargo de todas las etapas de desarrollo (requerimientos - desarrolo - test - deploy) y tambien de la organizacion e induccion de los miembros del equipo de trabajo. En mi paso por esta institucion trabaje en variados proyectos de diferente complejidad de los cuales rescato aquellos que tubieron una implementacion a nivel nacional y que representaron un mayor reto."
                 },
                 {
                     "activity":"- SSMOC-VIH : Sistema para manejo de solicitud y resultados de examenes VIH. Este sistema pone a dispocicion la informacion recolectada en tiempo real para todos los establecimientos que permanescan al servicio publico de salud a lo largo del pais"
@@ -209,13 +209,10 @@
             "activities":
             [
                 {
-                    "activity":"Desarrollador Full Stack para aplicacion 'NoMore' (sistema de informacion y prevencion para seguridad de la mujer) version web / Android / iOS." 
+                    "activity":"Desarrollador Full Stack para aplicacion 'NoMore' (sistema de informacion y prevencion para seguridad de la mujer) version web / Android / iOS. Prototipo de la aplicacion, desde la idea conceptual del cliente hasta la implementacion de la base de datos y la instalacion del servidor." 
                 },
                 {
-                    "activity":"Desarrollo de prototipo de la aplicacion, desde la idea conceptual del cliente hasta la implementacion de la base de datos y la instalacion del servidor."
-                },
-                {
-                    "activity":"Construcion de modulos (login, manejo de usuarios, geolocalizacion, foro, noticias, red social), y construccion de modulos 'alarma preventiva' y 'modulo predictivo' usando Machine Learning "
+                    "activity":"Construcion de modulos (login, manejo de usuarios, geolocalizacion, foro, noticias, red social), modulos 'alarma preventiva' y 'modulo predictivo' usando Machine Learning "
                 }
             ]
         },
@@ -243,13 +240,7 @@
             "activities":
             [
                 {
-                    "activity":"Ingenieria de requerimientos, ordenar y categorizacion de lo requerimientos funcionales y no funcionales, necesarios para el desarrollo del sistema 'Sistema Pagare para el area de contabilidad del HRC'"
-                },
-                {
-                    "activity":"Construccion de 'Sistema Pagare' sistema de informacion para el area comercial del hospital, implementacion de base de datos y servidor SQL."
-                },
-                {
-                    "activity":"Mantenimiento y deploy del proyecto en los servidores privados PHP del hospital."
+                    "activity":"Ingenieria de requerimientos, ordenar y categorizacion de lo requerimientos funcionales y no funcionales, necesarios para el desarrollo del sistema 'Sistema Pagare para el area de contabilidad del HRC'. implementacion de base de datos y servidor SQL. Mantenimiento y deploy del proyecto en los servidores privados PHP del hospital."
                 }
             ]
         },
@@ -262,10 +253,7 @@
                     "activity":"Requirements engineering, ordering and categorization of the functional and non-functional requirements necessary for the development of the 'Payment system for the HRC Accounting area' project."
                 },
                 {
-                    "activity":"Construction of “Sistema Pagare” information system for the commercialization area of the hospital. Implement app code and database server SQL."
-                },
-                {
-                    "activity":"Deployment and maintenance of project in local hospital servers PHP."
+                    "activity":"Construction of “Sistema Pagare” information system for the commercialization area of the hospital. Implement app code and database server SQL. Deployment and maintenance of project in local hospital servers PHP."
                 }
             ],
             "stack":"LARAVEL 6, GIT, LINUX, ANGULAR 7"
@@ -304,7 +292,7 @@
                     "activity":"Creacion de la version prototipo del juego online multijugador (miniaturas de aeropuertos y aviones) basado en la miniaturas reales del catalogo de la compañia HERPA."
                 },
                 {
-                    "activity":"Contruccion de los modulos registro de usuario, registro de producto, colecciones, pagos, travels, implementacion del simulador de trafico del aeropuerto, primera etapa del mundo 2d usando javascript y THREE.js; Implementacion de base de datos PostgreSQL e instalacion de servidor."
+                    "activity":"Creacion modulos registro usuario, producto, colecciones, pagos, travels, simulador de trafico del aeropuerto, intefaz mundo 2d usando javascript y THREE.js; Implementacion de base de datos PostgreSQL e instalacion de servidor."
                 }
             ]
         },
@@ -352,5 +340,12 @@
         "email":"ruben.oropeza@cinvestav.mx",
         "location":"Mexico"
     }
-]
+],
+"ui":{
+    "work_experience":{
+        "english":"WORK EXPERIENCES",
+        "spanish":"EXPERIENCIA LABORAL",
+        "chinese":"EXPERIENCIA LABORAL CHINO"
+    }
+}
 }

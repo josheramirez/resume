@@ -1,5 +1,7 @@
 <button (click)="sendToPdf()">pdf</button>
-
+<ng-container *ngFor="let language of languages">
+    <button (click)="set_language(language)" *ngIf="language.language!=actual_language">{{language.label}}</button>
+</ng-container>
 <div class="page" id="page">
     <div class="resume-body"  #page>
         <div class="left">
@@ -77,28 +79,18 @@
         </div>
         <div class="right">
             <div class="summary">
-                {{data.summary.english}}
+                {{this.translate("summary","data")}}
+                <!-- {{data.summary.english}} -->
             </div>
             <div class="experiences">
-                <div class="section_title">WORK EXPERIENCES</div>
-                <!-- <div class="experience">
-                    <div class="role">SENIOR FRONTEND ANGULAR DEVELOPER</div>
-                    <div class="company">BCI BANK / Santiago, Chile / August 2023 - Febrero 2024</div>
-                    <div class="activity">
-                        - My principal labor in this role was implement evolutionary improvement to the web app BCI-PYME-PORTAL (medium and small bussiness accounts in BCI bank), all change requested come from the gerency of the bank, and me and my team we have the responsabily of discuss and create user historys and added to ours jira backlog. 
-- as developer i have a secondary labor in this team, that was manage and control every step in the CI/CD (continue integration), from testing until deploy in QA and PROD stage.
-- The technologic STACK than i used to achive my gols in this job was ANGULAR 14, JAVA SPRING BOOT, GIT, CSS, JAVASCRIPT, JIRA, JENKINS.
-                    </div>
-                </div>
-            
-             -->
-
-            <ng-container *ngFor="let experience of data.experiences">
+                <div class="section_title"> {{this.translate("work_experience","ui")}}</div>
+            <ng-container *ngFor="let experience of data.experiences; index as index">
                 <div class="experience">
-                    <div class="role">{{experience.english.role}}</div>
-                    <div class="company">{{experience.english.company}}</div>
-                    <div class="activity" *ngFor="let activities of experience.english.activities">
-                        {{activities.activity}}
+                    <div class="role">{{this.translate("experiences","item", index).role}}</div>
+                    <div class="company">{{this.translate("experiences","item", index).company}}</div>
+                    {{get_activities(this.translate("experiences","item", index).activities)}}
+                    <div class="activity" *ngFor="let activities of this.item_activities">
+                        {{activities["activity"]}}
                     </div>
                     <div class="stack">STACK : {{experience.english.stack}}</div>
                 </div>
