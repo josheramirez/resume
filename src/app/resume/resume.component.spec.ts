@@ -7,7 +7,8 @@ describe('ResumeComponent', () => {
   let fixture: ComponentFixture<ResumeComponent>;
 
 
-// some comment
+// some comment 
+// other comment
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeComponent]
